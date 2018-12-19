@@ -17,10 +17,12 @@ isomorphic-fetch (lib para padroniza o funcionamento da [API fetch](https://deve
 Iniciando um projeto novo (caso nao queira baixar esse)
 -----------
 1° Crie uma pasta e dentro dela execute os seguintes comandos (pode ser com o NPM caso preferir)
+--------------------
 yarn init -y
 yarn add react react-dom next isomorphic-fetch
 
 2° Adicione os seguintes trexo no arquivo package.json (logo apos as dependencies)
+--------------------
 "scripts": {
     "dev": "next",
     "build": "nexrt build",
@@ -28,10 +30,11 @@ yarn add react react-dom next isomorphic-fetch
   }
 
 3° Execute os seguintes comandos
+--------------------
 yarn dev npm run dev 
 
 
 OBS: 
 -----------
 Exemplo simples, sem complexidade alguma. 
-Foi feito exclussivamente para testar a lib :) tks
+Foi feito exclusivamente para testar a lib :) tks
